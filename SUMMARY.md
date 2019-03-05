@@ -47,7 +47,6 @@
   * [实现原理](image/internal.md)
 * [操作容器](container/README.md)
   * [查看容器](container/look.md)
-  * [创建容器](container/create.md)
   * [启动](container/run.md)
   * [守护态运行](container/daemon.md)
   * [文件拷贝](container/cp_file.md)
