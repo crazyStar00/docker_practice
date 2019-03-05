@@ -36,7 +36,7 @@ $ docker image ls
 REPOSITORY                        TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
 ubuntu                            latest              ba5877dc9bec        6 weeks ago         192.7 MB
 ```
-
+#### 标记此镜像为私有仓库的镜像
 使用 `docker tag` 将 `ubuntu:latest` 这个镜像标记为 `127.0.0.1:5000/ubuntu:latest`。
 
 格式为 `docker tag IMAGE[:TAG] [REGISTRY_HOST[:REGISTRY_PORT]/]REPOSITORY[:TAG]`。
@@ -48,6 +48,8 @@ REPOSITORY                        TAG                 IMAGE ID            CREATE
 ubuntu                            latest              ba5877dc9bec        6 weeks ago         192.7 MB
 127.0.0.1:5000/ubuntu:latest      latest              ba5877dc9bec        6 weeks ago         192.7 MB
 ```
+
+#### 上传标记的镜像
 
 使用 `docker push` 上传标记的镜像。
 
