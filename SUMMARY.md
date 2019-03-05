@@ -56,6 +56,7 @@
   * [终止](container/stop.md)
   * [进入容器](container/attach_exec.md)
   * [导出和导入](container/import_export.md)
+  * [迁移与备份](container/bak.md)
   * [删除](container/rm.md)
 * [访问仓库](repository/README.md)
   * [Docker Hub](repository/dockerhub.md)
