@@ -11,7 +11,6 @@
     "-livereload",
     "image-captions",
     "github",
-    "page-treeview",
     "editlink"
   ],
   "pluginsConfig": {
